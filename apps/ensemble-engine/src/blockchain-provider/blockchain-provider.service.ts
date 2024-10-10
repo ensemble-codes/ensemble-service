@@ -13,6 +13,7 @@ export class BlockchainProviderService {
     sepolia: process.env.PROVIDER_URL_SEPOLIA,
     base_sepolia: process.env.PROVIDER_URL_BASE_SEPOLIA,
     op_sepolia: process.env.PROVIDER_URL_OP_SEPOLIA,
+    avalanche_fuji: process.env.PROVIDER_URL_AVALANCHE_FUJI,
   }
 
   constructor(
